@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.theme-light {
+  --background-color: #fffffb;
+  --component-background-color: #eee5e5;
+  --color-primary: #19647e;
+  --color-secondary: #28afb0;
+  --color-tertiary: #8A4287;
+  --text-color: #202020;
+  --border-color: #F9F2F2;
+  --hover-color:#666666;
+  --button-text-color: #F9F2F2;
+  --alternative-background: #F9F2F2;
+  --moon-color: #202020;
+  --sun-color: #fffffb;
+  --toogle-color:#8A4287; 
+}
+
+.theme-dark {
+  --background-color: #0a0a0a;
+  --component-background-color: #fffffb;
+  --color-primary: #45b4d9;
+  --color-secondary: #79e2e2;
+  --color-tertiary: #d8aed7;
+  --text-color: #fffffb;
+  --border-color: #F9F2F2;
+  --hover-color:#d9d9d9;
+  --button-text-color: #202020;
+  --alternative-background: #202020;
+  --moon-color: #fffffb;
+  --sun-color: #202020;
+  --toogle-color:#45b4d9; 
+}
+
+.body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  min-height: 100vh;
+}
